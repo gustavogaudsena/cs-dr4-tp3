@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DR4_TP3", "DR4_TP3\DR4_TP3.csproj", "{F1B6797E-27E9-49F0-AE54-06D023D9C20E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityBreaks.Web", "CityBreaks.Web\CityBreaks.Web.csproj", "{F04FD5F2-A1F6-4C07-B8D0-2C14424CE00E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1B6797E-27E9-49F0-AE54-06D023D9C20E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B6797E-27E9-49F0-AE54-06D023D9C20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B6797E-27E9-49F0-AE54-06D023D9C20E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B6797E-27E9-49F0-AE54-06D023D9C20E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F04FD5F2-A1F6-4C07-B8D0-2C14424CE00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04FD5F2-A1F6-4C07-B8D0-2C14424CE00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04FD5F2-A1F6-4C07-B8D0-2C14424CE00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04FD5F2-A1F6-4C07-B8D0-2C14424CE00E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
