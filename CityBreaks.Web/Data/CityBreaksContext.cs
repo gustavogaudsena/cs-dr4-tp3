@@ -6,9 +6,9 @@ namespace CityBreaks.Web.Data;
 
 public class CityBreaksContext : DbContext
 {
-    DbSet<Country> Countries { get; set; }
-    DbSet<City> Cities { get; set; }
-    DbSet<Property> Properties { get; set; }
+    public DbSet<Country> Countries { get; set; }
+    public DbSet<City> Cities { get; set; }
+    public DbSet<Property> Properties { get; set; }
 
     public CityBreaksContext(DbContextOptions<CityBreaksContext> options)
         : base(options)

@@ -144,12 +144,17 @@ namespace CityBreaks.Web.Migrations
             modelBuilder.Entity("CityBreaks.Web.Models.Property", b =>
                 {
                     b.HasOne("CityBreaks.Web.Models.City", "City")
-                        .WithMany()
+                        .WithMany("Properties")
                         .HasForeignKey("CityId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("City");
+                });
+
+            modelBuilder.Entity("CityBreaks.Web.Models.City", b =>
+                {
+                    b.Navigation("Properties");
                 });
 #pragma warning restore 612, 618
         }
