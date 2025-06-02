@@ -11,9 +11,7 @@
     <ul>
         @foreach (var property in Model.City.Properties)
         {
-            <li>
-                <strong>@property.Name</strong> – @property.PricePerNight.ToString("C")
-            </li>
+            <li><a asp-page="/EditProperty" asp-route-id="@property.Id">@property.Name</a></li>
         }
     </ul>
 }
