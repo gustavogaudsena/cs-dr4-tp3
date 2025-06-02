@@ -1,0 +1,23 @@
+@page "{name}"
+@model CityDetails
+@{
+    ViewData["Title"] = "Detalhes da Cidade";
+}
+
+<h2>@Model.City?.Name (@Model.City?.Country?.CountryName)</h2>
+
+@if (Model.City?.Properties?.Any() == true)
+{
+    <ul>
+        @foreach (var property in Model.City.Properties)
+        {
+            <li>
+                <strong>@property.Name</strong> – @property.PricePerNight.ToString("C")
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>Nenhuma propriedade cadastrada.</p>
+}
